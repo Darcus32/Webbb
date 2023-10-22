@@ -423,7 +423,7 @@ header .content-wrap .logo {
 .portfolio {
 	position: absolute;
 	width: 100%;
-	height: 404px;
+	height: 500px;
 	flex-shrink: 0;
 	background: rgba(255, 255, 255, 1);
 	margin-top: 1158px;
@@ -512,13 +512,33 @@ header .content-wrap .logo {
 	margin-top: 294px;
 }
 
+.works {
+	position: absolute;
+	margin-top: 370px;
+	margin-left: 150px;
+	color: var(--Gray-1, #333);
+	font-family: Libre Franklin;
+	font-size: 18px;
+	font-style: unset;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+	
+}
+
+.Lr2 {
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 34px
+}
+
 .getin{
 	position: absolute;
 	width: 100%;
 	height: 300px;
 	flex-shrink: 0;
 	background: rgba(255, 250, 242, 1);
-	margin-top: 1561px;
+	margin-top: 1661px;
 }
 
 .getin-text {
@@ -900,6 +920,25 @@ header .content-wrap .logo {
 	
 	.fa-chevron-left, .fa-chevron-right {
 		font-size: 27px;
+		color: var(--Gray-1, #333);
+	}
+	.Lr2 {
+		position: absolute;
+		color: var(--Gray-1, #333);
+		font-family: Libre Franklin;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-decoration: none;
+		margin-left: 260px;
+		margin-top: 483px;
+	}
+
+	.works {
+		margin-top: 410px;
+		margin-left: 260px;
+		font-size: 24px;
 	}
 
 }
